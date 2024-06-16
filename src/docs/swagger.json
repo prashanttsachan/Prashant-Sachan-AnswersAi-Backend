@@ -1,0 +1,50 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Answer AI",
+    "description": "API Documentation",
+    "contact": {
+      "name": "API Support",
+      "email": "psachan190@gmail.com"
+    }
+  },
+  "host": "http://localhost:5011",
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "Authentication",
+      "description": "Enable user to sign up, login and get refresh token"
+    },
+    {
+      "name": "Users",
+      "description": "Enable user to sign up, login and get refresh token"
+    },
+    {
+      "name": "Questions",
+      "description": "Enable user to ask questions and receive their answers"
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "securityDefinitions": {},
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  }
+}
