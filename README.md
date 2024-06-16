@@ -2,7 +2,7 @@
 
 Instruction are given below to start the application in all 3 environments. Though production environment is not included in this. Open api keys are not included due to git hub communite guildlines as it doesn't allows to push OPEN_API_KEYS
 
-Please add the open api key in below mwntioned files.
+Please add the open api key in below mentioned files.
 
 .env.dev , .env.test , Dockerfile
 
